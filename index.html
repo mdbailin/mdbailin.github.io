@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- navbar centered dark -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="name" class="navbar-brand" href="#">Matthew Bailin</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar navbar-nav navbar-center">
+                <li id="home" class="active"><a href="#home-section">Home</a></li>
+                <li id="about"><a href="#about-section">About</a></li>
+                <li id="skills"><a href="#skills-section">Skills</a></li>
+                <li id="projects"><a href="#projects-section">Projects</a></li>
+                <li id="contact"><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+                
+<!-- jumbotron with button to download resume -->
+    <div id="home-section" class="jumbotron">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <div class="jumbotron-content">
+                        <h1>Matthew Bailin</h1>
+                        <p>Web Developer and Designer</p>
+                        <p><a class="btn btn-primary btn-lg" id="download" role="button">Download Resume</a></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-- about section -->
+<section id="about-section" class="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <img id="profile" src="img/profile.png" alt="profile">
+                    <p id="about-content">
+                        Hello from Ho Chi Minh City, Vietnam!
+                        I am a fullstack web developer and data analyst with two years of experience. 
+                        I am currently building apps and websites using React, Javascript, Typescript, and Vue.js for the frontend, as well as Firebase, PostGRESQL, SQLALchemy, and Flask/Django for the backend. 
+                        I am also familiar with Docker, Kubernetes, Railway, and Firebase deployment in case you need help getting your app or project deployed and in production. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skills section -->
+<section id="skills-section" class="skills">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="skills-content">
+                    <h2>Skills</h2>
+                    <p>Here are some of my skills:</p>
+                    <!--items listed as pictures-->
+                    <ul>
+                        <li><img src="img/html5.png" alt="html5"></li>
+                        <li><img src="img/css3.png" alt="css3"></li>
+                        <li><img src="img/js.png" alt="javascript"></li>
+                        <li><img src="img/cplusplus.png" alt="c++"></li>
+                        <li><img src="img/java.png" alt="java"></li>
+                        <li><img src="img/react.png" alt="bootstrap"></li>
+                        <li><img src="img/firebase.png" alt="firebase"></li>
+                        <li><img src="img/python.png" alt="wordpress"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- projects section -->
+<section id="projects-section" class="projects">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="projects-content">
+                    <h2>Projects</h2>
+                    <p>Here are some of my projects:</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Bugtracker</h3>
+                                <a href="https://bugtracker-ad036.web.app/" target="_blank">
+                                    <img src="img/bugtracker.png" alt="project1">
+                                </a>
+                                <div class="caption">
+                                    <p>
+                                        This is lightweight, serverless bugtracking program built using React and Google Firebase.
+                                        The program allows users to create projects, add bugs to those projects, and assign users to those bugs. 
+                                        This project was built to help me learn how to use Firebase and to help me learn how to use React.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Ecommerce</h3>
+                                <a href="https://main--thestore12321.netlify.app/" target="_blank">
+                                    <img src="img/ecommerce.png" alt="project2">
+                                </a>
+                                <div class="caption">
+                                    <p>
+                                        This is an ecommerce site I have made using the MERN stack, the Stripe API for handling payments,
+                                        and redux for managing the state of the cart. The site is hosted on Netlify and the backend is hosted on Railway.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Kaggle</h3>
+                                <a href="https://www.kaggle.com/code/matthewbailin/cyclistic-bike-data-report/notebook" target="_blank">
+                                    <img src="img/kaggle.png" alt="project3">
+                                </a>
+                                <div class="caption">
+                                    <p>
+                                        A business case report on "Cyclistic", a fictitious rideshare company. The report
+                                        goes through the process of data analysis and data visualization to determine the best
+                                        business strategy for the company. The report also uses R and SQL to analyze the data.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- contact section, use font awesome icons for phone and email -->
+<section id="contact-section" class="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="contact-content">
+                    <h2>Contact Me</h2>
+                    <p>Feel free to contact me at:</p>
+                    <p><i class="fa fa-envelope"></i> mbailin@protonmail.com </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="footer-content">
+                    <p>© 2023 Matthew Bailin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- javascript -->
+<script>
+   // DOMContentLoaded
+    document.addEventListener('DOMContentLoaded', function() {
+       // download resume when button is clicked
+        document.getElementById('download').addEventListener('click', function() {
+            window.open('resume.pdf');
+        });
+        //whenever navbar button is pressed, make button active and remove active from other buttons
+        var buttons = document.getElementsByClassName('navbar-nav')[0].children;
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function() {
+                for (var j = 0; j < buttons.length; j++) {
+                    buttons[j].classList.remove('active');
+                }
+                this.classList.add('active');
+            });
+        }
+        //when name is pressed, deactivate all other navbar buttons
+        document.getElementById('name').addEventListener('click', function() {
+            for (var j = 0; j < buttons.length; j++) {
+                buttons[j].classList.remove('active');
+            }
+        });
+    });
+</script>
